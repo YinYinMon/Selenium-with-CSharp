@@ -21,8 +21,8 @@ This project contains a suite of automated API tests developed in C# using NUnit
 ### **Installation Instructions**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YinYinMon/APITesting_NUnit.git
-   cd FakeStrore_APITesting
+   git clone https://github.com/YinYinMon/Selenium-with-CSharp.git
+   cd Selenium-with-CSharp
    ```
 2. Open the solution (`.sln`) file in Visual Studio.
 3. Restore the NuGet packages:
