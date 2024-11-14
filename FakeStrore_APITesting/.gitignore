@@ -1,0 +1,45 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore IDE files
+.vscode/
+.vs/
+.idea/
+
+# Ignore test result files
+TestResults/
+
+# Ignore NuGet packages and generated files
+*.nupkg
+packages/
+*.snupkg
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore coverage reports
+coverage/
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# Ignore any additional sensitive files
+appsettings.json
+appsettings.Development.json
+
+# Ignore Git-specific files
+.git/
