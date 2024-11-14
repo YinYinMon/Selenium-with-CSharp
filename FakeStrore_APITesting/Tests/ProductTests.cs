@@ -113,7 +113,7 @@ namespace FakeStrore_APITesting.Tests
             var response = _apiClient.SendRequest("/products", Method.Post, newProduct);
 
             // Assert the response status code to be 400 (Bad Request)
-            Assert.AreEqual(200, (int)response.StatusCode);
+            Assert.AreEqual(400, (int)response.StatusCode);
         }
 
         //Check Update a product that is already having in list
